@@ -28,6 +28,13 @@ def apple_app_site_association():
     return jsonify(document)
 """
 
+
+# .well-known DID API DID document
+@app.route('/', methods=['GET'])
+def start():
+    return jsonify('Everything is fine')
+
+
 # .well-known DID API DID document
 @app.route('/.well-known/did.json', methods=['GET'])
 def well_known_did () :

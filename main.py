@@ -59,7 +59,7 @@ def well_known_did () :
                             "kty":"RSA",
                             "n": "ilResnUjv6kwJW8yh9u3kS3_2hWYtHD-hN0tBUaSe6UdhGYvmLUxRzyssEs5ib_JjChyhrvFbgWpSmRQK5wQEgGnhxs1isdXXNsEIQY0hKxwR1s5b2WxHsGi65bYMOFr_s2ZkNTpWDnlGNjpvw16Cnp94Ak9GUSHMf1HzQP2C5ou6l6k9Iz4CHpYZCPuM5kaerFDfN-TyQRVnek6vN7rFXbtgaBGzwDVl1aQa75jd5osmMy_43brnQsl2bFwoJLxzzye9V-nBKqZWsMi2V6tB_loYUhBTtxlKyY53R9QoNtJTwx25KMjHIpDCrPoSDXyYV_JfjW9iNGZenNbpoLS6Q"
                         }
-                    },
+                    }
                 ],
                 "authentication" : [
                     "did:web:demo.talao.co#key-1",

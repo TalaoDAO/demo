@@ -38,11 +38,7 @@ def start():
 # .well-known DID API DID document
 @app.route('/.well-known/did.json', methods=['GET'])
 def well_known_did () :
-    """ did:web
-    https://w3c-ccg.github.io/did-method-web/
-    https://identity.foundation/.well-known/resources/did-configuration/#LinkedDomains
-    """
-    return  {
+    return  jsonify({
                 "@context": [
                     "https://www.w3.org/ns/did/v1",
                     {
@@ -74,7 +70,7 @@ def well_known_did () :
                 "capabilityInvocation":[
                     "did:web:demo.talao.co#key-1"
                 ]
-            }
+            })
 
 
 
